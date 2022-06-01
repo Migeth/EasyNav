@@ -2,6 +2,9 @@
   "name": "themefisher-theme-kit",
   "version": "1.1.0",
   "description": "Gulp environment for running HTML themes by themefisher",
+  "scripts": {
+    "start": "node index.js"
+  }
   "keywords": [
     "gulp",
     "frontend"
