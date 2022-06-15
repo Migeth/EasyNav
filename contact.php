@@ -1,11 +1,35 @@
-@@include('header.htm')
 
-@@include('blocks/navigation.htm', {"contact": "active"})
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Basic Page Needs
+      ================================================== -->
+    <meta charset="utf-8">
+    <title>EasyNav | Contact</title>
+    <?php include("header.php") ?>
 
-@@include('blocks/page-title.htm',{
-	"title"		: "Contact Us",
-	"description" : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
-})
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+<?php include("nav.php") ?>
+
+<!--================================
+=            Page Title            =
+=================================-->
+
+<section class="section page-title">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 m-auto">
+				<!-- Page Title -->
+				<h1>Contactez-nous</h1>
+				<!-- Page Description -->
+				<p>Notre équipe est toujours disposée à vous assiter au besoin.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Page Title  ====-->
+
 
 <!--=====================================
 =            Address and Map            =
@@ -20,8 +44,8 @@
 							<i class="ti-mobile"></i>
 						</div>
 						<div class="details">
-							<h3>(00) 789 456 7890 (USA)</h3>
-							<h3>(88) 016 725 0455 (UK)</h3>
+							<h3>(+33) 06 00 00 00 (FRANCE)</h3>
+							<h3>contact@easynav.com</h3>
 						</div>
 					</div>
 					<div class="address-block text-center">
@@ -50,30 +74,30 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="mb-5 text-center">Drop us a mail</h2>
+				<h2 class="mb-5 text-center">Laissez nous un mail</h2>
 			</div>
 			<div class="col-12">
 				<form action="">
 					<div class="row">
 						<!-- Name -->
 						<div class="col-md-6 mb-2">
-							<input class="form-control main" type="text" placeholder="Name" required>
+							<input class="form-control main" type="text" placeholder="Nom et Prénom" required>
 						</div>
 						<!-- Email -->
 						<div class="col-md-6 mb-2">
-							<input class="form-control main" type="email" placeholder="Your Email Address" required>
+							<input class="form-control main" type="email" placeholder="Adresse mail" required>
 						</div>
 						<!-- subject -->
 						<div class="col-md-12 mb-2">
-							<input class="form-control main" type="text" placeholder="Subject" required>
+							<input class="form-control main" type="text" placeholder="Sujet" required>
 						</div>
 						<!-- Message -->
 						<div class="col-md-12 mb-2">
-							<textarea class="form-control main" name="message" rows="10" placeholder="Your Message"></textarea>
+							<textarea class="form-control main" name="message" rows="10" placeholder="Votre message"></textarea>
 						</div>
 						<!-- Submit Button -->
 						<div class="col-12 text-right">
-							<button class="btn btn-main-md">Submit</button>
+							<button class="btn btn-main-md">Envoyer</button>
 						</div>
 					</div>
 				</form>
@@ -82,6 +106,12 @@
 	</div>
 </section>
 
-@@include('blocks/footer.htm')
+<!--============================
+=            Footer            =
+=============================-->
+<?php include "footer.php"; ?>
+<?php include "footer_script.php"; ?>
 
-@@include('footer.htm')
+</body>
+
+</html>

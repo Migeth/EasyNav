@@ -1,11 +1,34 @@
-@@include('header.htm')
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Basic Page Needs
+      ================================================== -->
+    <meta charset="utf-8">
+    <title>EasyNav | Confidentialité</title>
+    <?php include("header.php") ?>
 
-@@include('blocks/navigation.htm', {"pages" : "active", "privacy" : "active"})
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+<?php include("nav.php") ?>
 
-@@include('blocks/page-title.htm',{
-	"title"			: "Privacy Policy",
-	"description"	: "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
-})
+<!--================================
+=            Page Title            =
+=================================-->
+
+<section class="section page-title">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 m-auto">
+				<!-- Page Title -->
+				<h1>Politique de confidentialités</h1>
+				<!-- Page Description -->
+				<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Page Title  ====-->
+
 
 <!--====================================
 =            Privacy Policy            =
@@ -70,6 +93,11 @@
 </section>
 <!--====  End of Privacy Policy  ====-->
 
-@@include('blocks/footer.htm')
+<!--============================
+=            Footer            =
+=============================-->
+<?php include "footer.php"; ?>
+<?php include "footer_script.php"; ?>
+</body>
 
-@@include('footer.htm')
+</html>

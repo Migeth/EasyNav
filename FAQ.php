@@ -1,11 +1,35 @@
-@@include('header.htm')
 
-@@include('blocks/navigation.htm', {"pages" : "active", "faq" : "active"})
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Basic Page Needs
+      ================================================== -->
+    <meta charset="utf-8">
+    <title>EasyNav | FAQ</title>
+    <?php include("header.php") ?>
 
-@@include('blocks/page-title.htm',{
-	"title"		: "Frequently Asked Questions",
-	"description" : "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta."
-})
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+<?php include("nav.php") ?>
+
+<!--================================
+=            Page Title            =
+=================================-->
+
+<section class="section page-title">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 m-auto">
+				<!-- Page Title -->
+				<h1>Frequently Asked Questions</h1>
+				<!-- Page Description -->
+				<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Page Title  ====-->
+
 
 <!--=================================
 =            FAQ Section            =
@@ -268,6 +292,11 @@
 </section>
 <!--====  End of FAQ Section  ====-->
 
-@@include('blocks/footer.htm')
+<!--============================
+=            Footer            =
+=============================-->
+<?php include "footer.php"; ?>
+<?php include "footer_script.php"; ?>
+</body>
 
-@@include('footer.htm')
+</html>
