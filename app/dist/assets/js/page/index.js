@@ -6,11 +6,10 @@ var myChart = new Chart(ctx, {
   data: {
     labels: ["January", "February", "March", "April", "May", "June", "July", "August"],
     datasets: [{
-      label: 'Sales',
-      data: [3200, 1800, 4305, 3022, 6310, 5120, 5880, 6154],
+      label: 'Temps de trajet',
+      data: [30, 35, 30, 40, 38, 45, 50, 52],
       borderWidth: 2,
       backgroundColor: 'rgba(63,82,227,.8)',
-      borderWidth: 0,
       borderColor: 'transparent',
       pointBorderWidth: 0,
       pointRadius: 3.5,
@@ -18,11 +17,10 @@ var myChart = new Chart(ctx, {
       pointHoverBackgroundColor: 'rgba(63,82,227,.8)',
     },
     {
-      label: 'Budget',
-      data: [2207, 3403, 2200, 5025, 2302, 4208, 3880, 4880],
+      label: 'Densité du Traffic',
+      data: [15, 16, 14, 15, 25, 30, 59, 40],
       borderWidth: 2,
       backgroundColor: 'rgba(254,86,83,.7)',
-      borderWidth: 0,
       borderColor: 'transparent',
       pointBorderWidth: 0 ,
       pointRadius: 3.5,
@@ -43,9 +41,9 @@ var myChart = new Chart(ctx, {
         },
         ticks: {
           beginAtZero: true,
-          stepSize: 1500,
+          stepSize: 5,
           callback: function(value, index, values) {
-            return '$' + value;
+            return value + '%';
           }
         }
       }],
@@ -70,7 +68,7 @@ var myChart = new Chart(balance_chart, {
   data: {
     labels: ['16-07-2018', '17-07-2018', '18-07-2018', '19-07-2018', '20-07-2018', '21-07-2018', '22-07-2018', '23-07-2018', '24-07-2018', '25-07-2018', '26-07-2018', '27-07-2018', '28-07-2018', '29-07-2018', '30-07-2018', '31-07-2018'],
     datasets: [{
-      label: 'Balance',
+      label: 'Traffic',
       data: [50, 61, 80, 50, 72, 52, 60, 41, 30, 45, 70, 40, 93, 63, 50, 62],
       backgroundColor: balance_chart_bg_color,
       borderWidth: 3,
@@ -127,17 +125,16 @@ var myChart = new Chart(sales_chart, {
   data: {
     labels: ['16-07-2018', '17-07-2018', '18-07-2018', '19-07-2018', '20-07-2018', '21-07-2018', '22-07-2018', '23-07-2018', '24-07-2018', '25-07-2018', '26-07-2018', '27-07-2018', '28-07-2018', '29-07-2018', '30-07-2018', '31-07-2018'],
     datasets: [{
-      label: 'Sales',
+      label: 'Embouteillage',
       data: [70, 62, 44, 40, 21, 63, 82, 52, 50, 31, 70, 50, 91, 63, 51, 60],
       borderWidth: 2,
       backgroundColor: balance_chart_bg_color,
-      borderWidth: 3,
-      borderColor: 'rgba(63,82,227,1)',
+      borderColor: 'rgba(254,86,83,1)',
       pointBorderWidth: 0,
       pointBorderColor: 'transparent',
       pointRadius: 3,
       pointBackgroundColor: 'transparent',
-      pointHoverBackgroundColor: 'rgba(63,82,227,1)',
+      pointHoverBackgroundColor: 'rgba(254,86,83,1)',
     }]
   },
   options: {
