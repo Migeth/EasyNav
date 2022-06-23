@@ -33,7 +33,7 @@
 							<!-- Password -->
 							<input class="form-control main" type="password" placeholder="Mot de passe" required>
 							<!-- Submit Button -->
-							<button class="btn btn-main-sm">SE CONNECTER</button>
+							<a href="app/dist/index.php" class="btn btn-main-sm">SE CONNECTER</a>
 						</form>
 						<div class="new-acount">
 							<a href="contact.php">Mot de passe oublié ?</a>
