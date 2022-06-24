@@ -106,7 +106,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
-                                <h4>Budget vs Sales</h4>
+                                <h4>Temps de trajet VS Densité de traffic </h4>
                             </div>
                             <div class="card-body">
                                 <canvas id="myChart" height="158"></canvas>
