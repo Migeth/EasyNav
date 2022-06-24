@@ -3,8 +3,8 @@
 // initialize map
 var map = new GMaps({
   div: '#map',
-  lat: -6.5637928,
-  lng: 106.7535061
+  lat: 48.85966593647314,
+  lng: 2.3526007291381346
 });
 
 // when the form is submitted

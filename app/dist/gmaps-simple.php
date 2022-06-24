@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Profil</title>
+    <title>Google Maps - Simple</title>
     <?php include 'header.php' ?>
 
 <body>
@@ -46,7 +46,7 @@
     </div>
   </div>
 
-<script src="assets/js/page/gmaps-simple.js"></script>
 <?php include 'footer-script.php' ?>
+<script src="assets/js/page/gmaps-simple.js"></script>
 </body>
 </html>

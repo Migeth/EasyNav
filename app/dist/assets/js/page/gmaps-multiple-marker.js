@@ -3,32 +3,36 @@
 // initialize map
 var map = new GMaps({
   div: '#map',
-  lat: -6.8665409,
-  lng: 106.4836553,
+  lat: 48.85966593647314,
+  lng: 2.3526007291381346,
   zoom: 8
 });
 // Added markers to the map
 map.addMarker({
-  lat: -6.5637928,
-  lng: 106.7535061,
-  title: 'Multinity',
+  lat: 48.85966593647314,
+  lng: 2.3526007291381346,
+  title: 'Chatelet Les Halles',
   infoWindow: {
-    content: '<h6>Multinity</h6><p>Jl. HM. Syarifudin, Bubulak, Bogor Bar., <br>Kota Bogor, Jawa Barat 16115</p><p><a target="_blank" href="https://multinity.com">Website</a></p>'
+    content: '<h6>Chatelet Les Halles</h6>'
   }
 });
 map.addMarker({
-  lat: -6.1325841,
-  lng: 106.8116507,
-  title: 'Procyon Logikreasi Indonesia',
+  lat: 48.86103098099422,
+  lng: 2.3405363868659457,
+  title: 'ESGI',
   infoWindow: {
-    content: '<h6>Procyon Logikreasi Indonesia</h6><p>Jl. Kali Besar Tim. No.29C, RT.7/RW.7, Pinangsia, Tamansari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11110</p><p><a target="_blank" href="https://procyon.co.id/">Website</a></p>'
+    content: '<h6>ESGI, École Supérieure de Génie Informatique</h6><p>242 Rue du Faubourg Saint-Antoine\n' +
+        '75012 Paris\n' +
+        'France</p>'
   }
 });
 map.addMarker({
-  lat: -6.4462693,
-  lng: 106.7654318,
-  title: 'Sigma ID',
+  lat: 48.84739446354133,
+  lng: 2.353072251464159,
+  title: 'Sorbonne',
   infoWindow: {
-    content: '<h6>Sigma ID</h6><p>Jl.Setapak No.5, Citayam, Tajur Halang, Bogor, Jawa Barat 16320</p><p><a target="_blank" href="http://sigmaid.net/">Website</a></p>'
+    content: '<h6>Sorbonne</h6><p>4 Pl. Jussieu\n' +
+        '75005 Paris\n' +
+        'France</p>'
   }
 });

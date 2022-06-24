@@ -15,8 +15,8 @@
 <script src="assets/modules/summernote/summernote-bs4.js"></script>
 <script src="assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv25chTIAiAfpeQN9Auh8TZlZo-5insUo&sensor=true"></script>
 <script src="assets/modules/gmaps.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWMFy7aqi7wtD5QxnMausxMkdkXCcyIKs" defer></script>
 
 
 <!-- Template JS File -->
