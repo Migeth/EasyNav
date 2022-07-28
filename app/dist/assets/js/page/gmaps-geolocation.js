@@ -16,7 +16,10 @@ GMaps.geolocate({
     map.addMarker({
       lat: position.coords.latitude,
       lng: position.coords.longitude,
-      title: 'You'
+      title: 'Votre position',
+      infoWindow: {
+        content: '<h6>Adresse actuelle</h6><p>' + position.title + '</p>'
+      }
     });
   },
   // when geolocation is blocked by the user
