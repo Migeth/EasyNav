@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Ecommerce Dashboard &mdash; Stisla</title>
+  <title>Historique &mdash; EasyNav</title>
   <?php include 'header.php' ?>
 
 <body>
@@ -13,7 +13,7 @@
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1>Activities</h1>
+            <h1>Historique</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
               <div class="breadcrumb-item">Historique</div>

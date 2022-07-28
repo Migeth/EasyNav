@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Ecommerce Dashboard &mdash; Stisla</title>
+    <title>Acceuil &mdash; EasyNav</title>
     <?php include 'header.php' ?>
 
 <body>

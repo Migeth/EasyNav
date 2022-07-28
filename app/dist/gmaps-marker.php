@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Profil</title>
+    <title>Marker</title>
     <?php include 'header.php' ?>
 
 <body>
@@ -12,14 +12,6 @@
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
-          <div class="section-header">
-            <h1>Marker</h1>
-            <div class="section-header-breadcrumb">
-              <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-              <div class="breadcrumb-item"><a href="#">Google Maps</a></div>
-              <div class="breadcrumb-item">Marker</div>
-            </div>
-          </div>
 
           <div class="section-body">
             <h2 class="section-title">Marker</h2>
